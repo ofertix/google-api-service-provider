@@ -1,6 +1,6 @@
 <?php
 
-namespace Stansmet\GoogleApi\Silex;
+namespace GoogleApi\Silex;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

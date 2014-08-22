@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Stansmet\\GoogleApi\\Silex\\": "lib"
+            "GoogleApi\\Silex\\": "lib"
         }
     }
 }
