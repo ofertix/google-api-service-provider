@@ -14,7 +14,7 @@ google api client into your project.
 
       {
           "require": {
-              "stansmet/google-api-service-provider": "*@dev"
+              "ofertix/google-api-service-provider": "dev-master"
           }
       }
 
