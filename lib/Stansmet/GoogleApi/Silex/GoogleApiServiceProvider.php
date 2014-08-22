@@ -11,7 +11,7 @@ class GoogleApiServiceProvider implements ServiceProviderInterface
   {
     $app['google.api.client'] = $app->share(function() use ($app) {
       if (isset($app['google.api.key'])) {
-        $key = $app['google.api.key_file'];
+        $key = $app['google.api.key'];
       } else {
         throw new Exception("Key api key must be defined", 1);
       }
