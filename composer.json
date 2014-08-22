@@ -1,0 +1,22 @@
+{
+    "name": "ofertix/google-api-service-provider",
+    "description": "Google API Client for the Silex Framework",
+    "keywords": ["google", "silex", "api", "gdata"],
+    "homepage": "tps://github.com/ofertix/google-api-service-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Luis Poveda",
+            "email": "joseluis.poveda@ofertix.com",
+            "homepage": "tps://github.com/ofertix/google-api-service-provider"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Stansmet\\GoogleApi\\Silex\\": "lib"
+        }
+    }
+}
