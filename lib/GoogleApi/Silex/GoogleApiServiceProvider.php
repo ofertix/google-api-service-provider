@@ -21,23 +21,23 @@ class GoogleApiServiceProvider implements ServiceProviderInterface
     */
     $app['google.api.client'] = $app->share(function() use ($app) {
       if (!isset($app['google.api.client_id'])) {
-        throw new Exception("client_id api must be defined", 1);
+        throw new \Exception("client_id api must be defined", 1);
       }
 
       if (!isset($app['google.api.service_account_name'])) {
-        throw new Exception("client_id api must be defined", 1);
+        throw new \Exception("client_id api must be defined", 1);
       }
 
       if (!isset($app['google.api.token_file_location'])) {
-        throw new Exception("client_id api must be defined", 1);
+        throw new \Exception("client_id api must be defined", 1);
       }
 
       if (!isset($app['google.api.key_file_location'])) {
-        throw new Exception("client_id api must be defined", 1);
+        throw new \Exception("client_id api must be defined", 1);
       }
 
       if (!isset($app['google.api.developer_key'])) {
-        throw new Exception("client_id api must be defined", 1);
+        throw new \Exception("client_id api must be defined", 1);
       }
 
       $client = new \Google_Client();
